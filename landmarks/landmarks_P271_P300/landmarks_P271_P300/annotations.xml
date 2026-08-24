@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>14</id>
+      <name>eye_deviation_landmarks_P271_P300</name>
+      <size>29</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-07-29 16:52:58.297754+00:00</created>
+      <updated>2026-08-13 19:35:04.526913+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>28</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>14</id>
+          <start>0</start>
+          <stop>28</stop>
+          <url>http://100.111.1.123:9000/api/tasks/14/dataset/export/api/jobs/14</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>fkambarani</username>
+        <email>fkambarani@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>right_eye_inner_corner</name>
+          <color>#f078f0</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_eye_inner_corner</name>
+          <color>#f078f0</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_eye_outer_corner</name>
+          <color>#b83df5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_eye_outer_corner</name>
+          <color>#b83df5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_white_point</name>
+          <color>#fafa37</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_white_point</name>
+          <color>#fafa37</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_iris_mask</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_iris_mask</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-08-13 19:59:24.824585+00:00</dumped>
+  </meta>
+  <image id="0" name="P271_IMG_3548.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1277.64,1749.02" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1157.70,1763.00" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1767.43,1759.94" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1887.90,1782.50" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1646.76,1795.36" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1391.48,1788.87" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="P272_IMG_4727.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1267.03,2099.43" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1580.43,2118.03" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1682.10,2092.00" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1165.00,2121.50" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1360.62,2119.31" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1784.40,2111.10" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="P273_IMG_6840.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1616.77,2251.98" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1909.90,2240.20" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1102.04,2167.44" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1249.81,2227.40" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="949.30,2176.90" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1743.86,2208.29" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="P274_IMG_4885.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1712.23,1973.17" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1314.23,1957.29" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1951.50,1979.30" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1183.42,1982.46" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1819.69,1947.56" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1422.23,1984.92" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="P275_IMG_6901.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1654.65,1916.81" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1781.87,1890.00" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1905.40,1930.10" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1128.60,1870.40" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1256.64,1847.98" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1371.87,1889.53" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="P276_IMG_8131.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1141.16,2189.14" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="2190.70,2253.46" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="2011.90,2230.90" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1861.86,2276.47" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1473.98,2239.82" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1311.10,2178.80" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="P277_IMG_6210.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1788.80,1858.40" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1668.56,1895.81" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1379.91,1906.47" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1913.58,1881.97" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1134.70,1880.10" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1255.83,1861.32" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="P278_IMG_6898.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1192.60,1966.90" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1673.33,2013.13" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1344.58,2007.98" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1813.37,1970.14" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1958.20,2002.90" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="P279_IMG_2512.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1156.83,1942.00" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1950.80,1959.70" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1793.04,1925.30" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1288.58,1990.83" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1663.27,1980.31" z_order="0">
+    </points>
+  </image>
+  <image id="9" name="P280_IMG_3771.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1635.01,1907.69" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1388.90,1896.80" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1285.10,1865.10" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1734.74,1885.77" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1835.60,1910.70" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="P281_IMG_3634.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1806.50,1911.10" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1344.22,1917.46" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1698.10,1896.30" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1598.69,1924.55" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1245.45,1882.59" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="P282_IMG_5946.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1847.40,1699.10" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1240.99,1658.90" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1375.88,1705.58" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1688.58,1718.49" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1982.00,1738.20" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="P283_IMG_7747.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1216.86,1968.38" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1847.54,1980.37" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1615.56,1996.07" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1334.19,2003.24" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1730.63,1956.48" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="P284_IMG_7103.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1738.23,2008.70" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1245.57,1997.13" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1867.80,2029.50" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1361.69,2048.24" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1622.65,2045.54" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="P287_IMG_4774.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1384.88,1916.57" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1282.76,1890.30" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1734.27,1876.21" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1861.28,1905.08" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1631.30,1905.90" z_order="0">
+    </points>
+  </image>
+  <image id="16" name="P288_IMG_8330.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="2000.94,2142.64" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1838.84,2105.15" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1169.92,2088.72" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1310.08,2146.64" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1705.98,2147.64" z_order="0">
+    </points>
+  </image>
+  <image id="17" name="P289_IMG_5058.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1888.15,1813.74" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1737.03,1804.02" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1323.47,1877.64" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1616.62,1855.66" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1045.60,1879.10" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1193.40,1844.10" z_order="0">
+    </points>
+  </image>
+  <image id="18" name="P290_IMG_7093.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1391.00,2021.54" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1986.29,2066.72" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1111.90,1991.90" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1255.63,1962.47" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1849.02,2022.11" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1720.00,2059.80" z_order="0">
+    </points>
+  </image>
+  <image id="19" name="P291_IMG_7829.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1936.47,1953.04" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1327.79,1966.46" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1658.55,1974.88" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1201.17,1918.51" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1069.25,1927.64" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1800.80,1932.80" z_order="0">
+    </points>
+  </image>
+  <image id="20" name="P292_IMG_8164.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1803.23,2293.88" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1066.59,2265.71" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1955.09,2325.55" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1351.90,2303.23" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1684.30,2317.30" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1209.01,2251.72" z_order="0">
+    </points>
+  </image>
+  <image id="21" name="P293_IMG_8355.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1254.70,2170.70" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="966.40,2153.30" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1123.82,2131.36" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1880.89,2184.58" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1720.30,2142.71" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1600.27,2188.15" z_order="0">
+    </points>
+  </image>
+  <image id="22" name="P294_IMG_7730.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1588.82,2127.06" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1733.46,2096.93" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1292.49,2123.09" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1152.84,2095.18" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1020.17,2118.53" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1865.53,2126.33" z_order="0">
+    </points>
+  </image>
+  <image id="23" name="P295_IMG_2547.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1355.39,1703.49" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1700.56,1731.33" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1916.00,1714.00" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1252.40,1719.80" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1803.23,1697.08" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1469.79,1733.35" z_order="0">
+    </points>
+  </image>
+  <image id="24" name="P296_IMG_7589.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1653.54,2046.69" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1419.51,2041.10" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1757.20,2015.78" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1885.73,2023.80" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1174.80,2033.00" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1319.06,2015.50" z_order="0">
+    </points>
+  </image>
+  <image id="25" name="P297_IMG_5350.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1253.13,1882.21" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1683.78,1887.61" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1377.68,1906.25" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1807.80,1853.14" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1124.26,1899.11" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1938.67,1864.33" z_order="0">
+    </points>
+  </image>
+  <image id="26" name="P298_IMG_8323.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="967.39,2084.41" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1933.30,2071.40" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1276.71,2112.69" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1769.40,2056.60" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1618.11,2097.80" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1126.40,2071.90" z_order="0">
+    </points>
+  </image>
+  <image id="27" name="P299_IMG_8498.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1295.65,2104.19" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1627.08,2119.29" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1002.30,2073.70" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1143.70,2062.12" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1768.88,2089.92" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1924.40,2117.10" z_order="0">
+    </points>
+  </image>
+  <image id="28" name="P300_IMG_4840.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1100.29,2038.43" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1215.17,2031.79" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1821.30,2090.50" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1322.01,2073.90" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1607.70,2093.73" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1699.40,2064.80" z_order="0">
+    </points>
+  </image>
+</annotations>
