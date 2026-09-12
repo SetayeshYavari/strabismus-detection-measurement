@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>16</id>
+      <name>eye_deviation_landmarks_P331_P360</name>
+      <size>30</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-08-12 09:55:31.316810+00:00</created>
+      <updated>2026-09-12 19:35:15.779547+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>29</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>16</id>
+          <start>0</start>
+          <stop>29</stop>
+          <url>http://100.111.1.123:8080/api/tasks/16/dataset/export/api/jobs/16</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>fkambarani</username>
+        <email>fkambarani@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>right_eye_inner_corner</name>
+          <color>#f078f0</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_eye_inner_corner</name>
+          <color>#f078f0</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_eye_outer_corner</name>
+          <color>#b83df5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_eye_outer_corner</name>
+          <color>#b83df5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_white_point</name>
+          <color>#fafa37</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_white_point</name>
+          <color>#fafa37</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_iris_mask</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>left_iris_mask</name>
+          <color>#33ddff</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-09-12 20:55:59.350296+00:00</dumped>
+  </meta>
+  <image id="0" name="P331_IMG_7821.JPG" width="3024" height="4032">
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1870.70,2085.70" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1327.13,2090.08" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1175.62,2027.50;1172.61,2050.10;1180.79,2075.72;1202.32,2095.52;1224.28,2102.20;1266.30,2091.90;1284.10,2070.60;1290.39,2043.00" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1230.82,2046.72" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1689.07,2059.09;1693.40,2079.69;1704.71,2099.36;1719.89,2110.67;1768.22,2115.63;1793.90,2099.70;1807.40,2073.00;1805.86,2044.84" z_order="0">
+    </polygon>
+    <points label="left_white_point" source="manual" occluded="0" points="1745.21,2060.51" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1638.14,2098.58" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1089.40,2069.88" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="P332_IMG_7066.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1767.82,2053.13" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1661.00,2109.70" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1716.53,2049.57;1717.10,2069.60;1735.70,2095.98;1763.70,2110.00;1799.32,2103.33;1824.24,2077.88;1829.61,2053.15;1822.09,2030.93" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1187.90,2050.75;1185.30,2079.60;1202.75,2109.73;1232.89,2124.59;1270.56,2118.34;1291.88,2095.09;1296.90,2068.80;1293.40,2049.70" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1245.04,2069.06" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1370.47,2112.50" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1112.50,2089.90" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1906.64,2069.38" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="P333_IMG_6826.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1654.23,2059.31" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1114.83,2035.62" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1824.20,2004.06" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1051.16,2001.61;1040.00,2033.70;1049.92,2073.35;1081.30,2102.49;1125.39,2105.48;1163.50,2084.55;1181.20,2048.70;1178.45,2012.82" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1293.75,2077.36" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1766.27,1983.33;1760.27,2010.68;1771.79,2043.31;1799.38,2068.98;1854.08,2074.50;1887.90,2051.50;1904.40,2013.40;1894.10,1971.80" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="2012.30,2028.90" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="941.93,2069.30" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="P334_IMG_7480.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1729.10,2154.70" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1198.37,2101.49;1193.14,2125.90;1202.86,2155.30;1223.53,2174.72;1261.30,2180.10;1287.00,2166.90;1303.50,2140.90;1303.74,2114.69" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1679.49,2137.98;1676.85,2161.49;1684.53,2180.92;1701.80,2198.20;1757.46,2201.80;1778.60,2184.30;1788.70,2155.00;1777.40,2126.00" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1360.58,2175.78" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1847.50,2173.10" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1140.44,2133.88" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1624.35,2187.79" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1251.60,2126.90" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="P335_IMG_7963.JPG" width="3024" height="4032">
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1063.97,2237.52;1045.78,2273.64;1056.74,2317.48;1092.86,2344.88;1138.40,2340.60;1166.10,2314.70;1176.10,2278.10;1164.10,2243.00" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1657.27,2262.57;1647.91,2292.56;1657.51,2325.43;1682.70,2350.38;1742.90,2351.10;1768.80,2329.50;1779.60,2294.70;1764.00,2254.70" z_order="0">
+    </polygon>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1584.35,2339.24" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="976.80,2288.50" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1853.30,2307.10" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1239.85,2336.80" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1707.10,2292.30" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1116.62,2280.95" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="P336_IMG_7191.JPG" width="3024" height="4032">
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1733.11,2037.26;1732.90,2064.01;1749.08,2095.12;1781.01,2111.29;1816.88,2107.77;1845.08,2088.27;1856.70,2063.81;1857.32,2039.75" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1233.20,2005.60" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1352.60,2078.54" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1668.70,2106.67" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1168.56,1989.95;1167.56,2016.60;1184.50,2048.74;1215.10,2065.90;1248.80,2063.90;1273.90,2051.70;1287.10,2034.00;1294.60,2004.15" z_order="0">
+    </polygon>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1075.30,2016.50" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1947.70,2080.00" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1789.80,2048.40" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="P337_IMG_5953.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1181.18,1654.62" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1694.52,1676.11;1689.75,1700.16;1698.87,1726.08;1717.74,1741.22;1766.47,1741.22;1786.80,1722.10;1793.84,1698.92;1791.36,1676.52" z_order="0">
+    </polygon>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1600.55,1717.23" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1059.20,1659.13" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1850.71,1721.39" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1130.80,1630.15;1125.21,1653.83;1133.17,1681.82;1151.90,1700.12;1192.37,1702.48;1215.80,1687.00;1228.10,1662.70;1225.30,1637.50" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1313.04,1699.80" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1733.30,1694.63" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="P338_IMG_7706.JPG" width="3024" height="4032">
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1219.87,2111.84;1218.94,2133.79;1234.75,2163.75;1264.15,2178.26;1300.43,2173.05;1320.15,2155.38;1329.64,2133.79;1329.27,2115.56" z_order="0">
+    </polygon>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1692.63,2171.61" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1164.90,2146.80" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1944.90,2159.00" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1771.88,2115.92;1773.54,2142.87;1790.55,2168.59;1819.37,2180.61;1852.55,2178.54;1873.70,2161.54;1885.30,2138.30;1883.86,2112.60" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1278.10,2124.20" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1823.85,2127.26" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1410.67,2168.12" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="P339_IMG_6380.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1808.20,1940.30" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1147.85,1915.12" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1704.63,1961.36" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1385.07,1926.19" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1770.72,1913.54;1762.12,1931.03;1762.95,1953.24;1768.78,1967.12;1837.10,1988.20;1856.10,1973.00;1864.60,1948.50;1860.11,1927.70" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1225.75,1870.92;1222.02,1889.90;1226.68,1912.79;1242.12,1930.28;1305.94,1927.11;1321.01,1907.21;1323.43,1885.62;1318.96,1867.39" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1939.00,1990.90" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1278.60,1889.37" z_order="0">
+    </points>
+  </image>
+  <image id="9" name="P340_IMG_5719.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1209.56,1736.46" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1580.24,1748.18" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="991.76,1634.33;977.81,1669.45;987.77,1714.53;1019.65,1743.43;1066.48,1743.18;1099.36,1720.26;1113.31,1688.13;1109.57,1656.75" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1062.40,1681.30" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1712.14,1700.23" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1649.98,1670.92;1642.78,1703.31;1654.50,1742.40;1683.80,1766.20;1746.20,1767.60;1776.90,1737.40;1787.70,1698.30;1768.50,1653.60" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1902.46,1736.61" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="896.21,1712.21" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="P341_IMG_8489.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1558.12,2082.34" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="929.04,2065.87" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1877.00,2101.10" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1005.35,2005.50;1002.60,2033.00;1018.56,2067.09;1048.15,2083.65;1087.41,2079.00;1109.55,2059.83;1119.00,2034.20;1114.40,2005.70" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1257.06,2069.96" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1720.80,2050.40" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1077.90,2022.70" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1669.43,2026.05;1664.04,2053.63;1675.44,2085.56;1704.68,2107.33;1745.53,2108.37;1776.22,2085.77;1785.80,2055.70;1781.40,2032.06" z_order="0">
+    </polygon>
+  </image>
+  <image id="11" name="P342_IMG_3236.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1389.04,1876.82" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1717.33,1836.73;1708.20,1857.26;1713.60,1883.59;1722.72,1899.35;1778.30,1907.60;1800.10,1890.80;1807.70,1866.20;1803.18,1843.57" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1280.20,1844.20" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1231.08,1823.41;1227.21,1842.14;1232.16,1866.03;1249.38,1885.19;1301.91,1887.56;1320.90,1867.80;1326.00,1844.70;1318.70,1820.18" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1868.81,1886.26" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1752.86,1861.59" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1650.51,1885.52" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1167.45,1862.69" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="P343_IMG_5358.JPG" width="3024" height="4032">
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1859.15,1808.45" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1601.00,1821.31" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1129.51,1760.61;1125.21,1784.08;1135.75,1814.22;1161.37,1830.58;1196.46,1830.58;1218.64,1816.37;1230.90,1788.20;1228.33,1764.70" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1308.20,1822.69" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1721.39,1786.15" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1181.10,1779.70" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1684.58,1753.32;1671.00,1779.40;1676.80,1815.50;1703.18,1836.87;1736.77,1841.31;1767.00,1821.90;1779.20,1793.60;1768.14,1759.98" z_order="0">
+    </polygon>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1049.00,1805.49" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="P344_IMG_2386.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1696.00,1870.82" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1253.10,1820.39;1245.79,1842.14;1252.03,1869.05;1274.42,1891.65;1330.18,1884.76;1347.60,1866.20;1351.10,1841.90;1340.94,1818.89" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1407.39,1883.55" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1767.18,1805.57;1756.62,1826.20;1759.74,1854.51;1781.57,1876.10;1832.44,1879.94;1855.70,1860.70;1863.60,1832.00;1855.23,1807.01" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1941.20,1853.80" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1183.90,1868.60" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1302.71,1845.66" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1805.20,1833.50" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="P345_IMG_3248.JPG" width="3024" height="4032">
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1261.72,1974.11;1253.10,1990.25;1256.12,2013.72;1274.85,2037.40;1319.41,2039.12;1337.10,2025.30;1347.00,2005.80;1345.25,1984.44" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1754.72,2007.59;1744.30,2030.40;1753.89,2056.74;1769.60,2071.90;1815.89,2073.95;1836.00,2056.53;1844.10,2038.50;1840.98,2020.03" z_order="0">
+    </polygon>
+    <points label="left_white_point" source="manual" occluded="0" points="1789.81,2028.93" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1292.00,1995.50" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1897.36,2052.38" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1177.50,2002.30" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1662.85,2050.44" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1415.78,2039.57" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="P346_IMG_7723.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1177.20,2175.10" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1309.59,2218.59" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1623.24,2230.99" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1059.97,2191.17" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1878.50,2230.60" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1749.57,2202.69" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1125.66,2150.21;1117.69,2176.26;1132.55,2208.55;1151.71,2222.54;1195.41,2219.53;1215.20,2204.50;1226.20,2180.60;1221.67,2157.74" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1705.63,2191.35;1704.80,2212.09;1721.00,2238.80;1739.64,2249.41;1778.20,2250.00;1800.19,2232.83;1812.00,2209.60;1808.10,2184.30" z_order="0">
+    </polygon>
+  </image>
+  <image id="16" name="P347_IMG_8737.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1198.83,2000.44" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1722.41,2019.02" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1087.80,2021.80" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1610.70,2043.80" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1318.34,2028.72" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1686.87,2000.18;1681.00,2022.10;1689.41,2044.63;1754.10,2058.70;1764.80,2050.00;1774.20,2034.90;1775.90,2018.50;1772.90,2003.30" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1149.77,1985.11;1146.72,2003.12;1152.67,2022.90;1166.66,2037.86;1229.20,2032.50;1241.40,2013.70;1241.80,1994.40;1235.16,1980.45" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1838.95,2047.37" z_order="0">
+    </points>
+  </image>
+  <image id="17" name="P348_IMG_7417.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1353.45,2120.85" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1056.70,2091.90" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1201.10,2068.19" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1831.60,2098.90" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1143.77,2033.62;1134.81,2057.03;1138.54,2089.66;1165.94,2120.30;1227.22,2120.55;1255.61,2096.39;1262.30,2065.70;1258.11,2044.58" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1783.01,2067.63;1776.06,2092.83;1785.17,2128.09;1810.61,2154.01;1862.19,2155.44;1890.26,2135.77;1903.69,2098.34;1896.02,2069.55" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1982.36,2134.10" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1677.93,2133.50" z_order="0">
+    </points>
+  </image>
+  <image id="18" name="P349_IMG_2839.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1318.30,2012.39" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1757.94,1946.11;1737.30,1972.00;1736.28,2004.77;1754.32,2032.96;1823.70,2034.40;1841.00,2012.64;1845.30,1981.10;1825.20,1948.70" z_order="0">
+    </polygon>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1081.60,1983.20" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1167.19,1944.19;1151.00,1966.86;1151.99,2003.48;1171.92,2029.13;1237.90,2029.10;1257.10,2006.70;1260.80,1976.30;1251.13,1952.41" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1917.64,1988.80" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1659.31,2017.44" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1209.96,1984.18" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1783.65,1988.10" z_order="0">
+    </points>
+  </image>
+  <image id="19" name="P350_IMG_6323.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1998.70,1844.60" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1554.38,1858.49" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1870.73,1878.02" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1268.83,1823.62" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="2155.19,1874.01" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1359.60,1779.83;1347.76,1807.18;1354.87,1840.11;1380.27,1864.44;1423.33,1868.53;1451.96,1850.88;1467.00,1820.50;1459.93,1789.31" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1954.01,1815.95;1944.89,1841.87;1954.22,1874.42;1981.38,1896.40;2018.71,1902.00;2051.70,1883.10;2066.80,1850.20;2055.62,1814.08" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1411.00,1813.70" z_order="0">
+    </points>
+  </image>
+  <image id="20" name="P351_IMG_7462.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1699.00,1900.80" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1402.74,1910.33" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1264.10,1884.10" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1821.10,1851.96" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1773.00,1845.97;1775.87,1866.94;1793.07,1892.39;1820.70,1904.00;1850.24,1898.49;1870.49,1881.64;1879.45,1862.64;1879.50,1846.50" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1213.47,1881.58;1217.35,1909.56;1231.12,1926.57;1250.93,1938.63;1304.10,1928.72;1317.88,1909.56;1322.20,1888.90;1317.45,1871.67" z_order="0">
+    </polygon>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1965.89,1887.18" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1123.78,1931.30" z_order="0">
+    </points>
+  </image>
+  <image id="21" name="P352_IMG_7955.JPG" width="3024" height="4032">
+    <points label="left_white_point" source="manual" occluded="0" points="1750.30,2031.20" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1214.36,2007.43" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1714.18,1997.72;1700.30,2028.20;1707.70,2060.10;1731.45,2083.85;1766.96,2085.29;1795.70,2068.60;1808.80,2038.30;1800.55,2004.68" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1175.13,1968.21;1158.77,1990.81;1158.34,2022.46;1177.90,2053.70;1216.20,2063.60;1246.80,2050.23;1264.30,2023.30;1262.96,1992.75" z_order="0">
+    </polygon>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1094.90,2026.20" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1886.46,2062.94" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1618.99,2080.47" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1353.14,2064.90" z_order="0">
+    </points>
+  </image>
+  <image id="22" name="P353_IMG_8214.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1040.80,2075.00" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1646.52,1997.94" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1581.15,2002.59;1584.90,2023.40;1600.10,2043.50;1651.20,2045.60;1665.20,2033.24;1670.80,2014.80;1670.40,2001.00;1662.50,1982.00" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1098.06,2043.12;1103.85,2068.74;1123.25,2088.33;1137.00,2094.79;1177.30,2087.30;1195.37,2070.25;1200.50,2045.30;1195.80,2026.33" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1277.08,2071.74" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1543.89,2042.82" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1789.00,2011.20" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1153.16,2045.73" z_order="0">
+    </points>
+  </image>
+  <image id="23" name="P354_IMG_8172.JPG" width="3024" height="4032">
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1281.80,2273.86" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1132.36,2220.26" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1702.67,2209.57" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1585.82,2257.66" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="992.81,2260.56" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1858.70,2246.30" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1054.79,2207.82;1055.65,2237.09;1073.52,2270.46;1104.52,2288.76;1157.05,2284.89;1180.50,2263.80;1196.40,2234.90;1194.50,2199.40" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1627.16,2209.21;1632.44,2234.64;1653.31,2266.31;1718.30,2279.50;1745.92,2264.87;1766.56,2238.00;1769.67,2208.25;1763.20,2182.82" z_order="0">
+    </polygon>
+  </image>
+  <image id="24" name="P355_IMG_7057.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1683.30,1988.50" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1917.60,1972.30" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1185.43,1929.22" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1307.79,1915.87" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1792.16,1947.51" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1257.88,1902.07;1256.81,1923.82;1267.36,1947.71;1292.10,1963.90;1323.33,1961.92;1346.15,1946.21;1354.76,1928.98;1356.05,1913.70" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1745.24,1939.41;1749.18,1966.97;1771.99,1991.65;1800.40,1997.70;1826.10,1988.80;1840.40,1970.70;1846.60,1950.20;1843.32,1929.04" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1419.83,1970.65" z_order="0">
+    </points>
+  </image>
+  <image id="25" name="P356_IMG_6931.JPG" width="3024" height="4032">
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1593.33,1898.39" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1692.36,1834.47;1685.31,1859.56;1692.16,1886.10;1711.23,1906.42;1764.30,1910.60;1789.80,1890.90;1799.00,1858.70;1789.61,1830.53" z_order="0">
+    </polygon>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1080.21,1809.97;1072.76,1829.88;1074.44,1860.21;1093.79,1888.49;1161.70,1887.00;1181.10,1867.60;1185.70,1840.50;1181.80,1819.64" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1281.93,1883.40" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1888.10,1878.00" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1738.96,1857.13" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1128.10,1840.80" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="980.58,1862.14" z_order="0">
+    </points>
+  </image>
+  <image id="26" name="P357_IMG_6408.JPG" width="3024" height="4032">
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1113.70,2058.50" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1414.25,2071.99" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1740.98,2084.60" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1192.04,2006.65;1190.60,2036.91;1207.60,2068.61;1239.30,2084.50;1274.80,2081.30;1302.71,2062.85;1316.30,2029.10;1312.51,2002.61" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1828.50,2026.30;1833.18,2061.13;1859.31,2090.78;1898.08,2099.49;1935.62,2083.53;1955.11,2054.91;1955.52,2032.10;1948.68,2010.95" z_order="0">
+    </polygon>
+    <points label="left_white_point" source="manual" occluded="0" points="1882.50,2036.10" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="2027.00,2069.40" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1257.40,2023.30" z_order="0">
+    </points>
+  </image>
+  <image id="27" name="P358_IMG_5938.JPG" width="3024" height="4032">
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1877.14,1787.97;1876.30,1814.70;1889.00,1843.73;1906.85,1860.52;1959.40,1864.83;1988.50,1842.90;2001.50,1808.20;1991.10,1774.70" z_order="0">
+    </polygon>
+    <points label="right_white_point" source="manual" occluded="0" points="1330.40,1786.80" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1933.52,1808.56" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1199.13,1805.99" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="2076.18,1831.13" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1810.75,1841.19" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1468.87,1831.21" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1264.66,1770.58;1265.65,1800.22;1283.59,1829.34;1316.47,1845.80;1353.58,1840.32;1377.49,1820.90;1389.20,1793.25;1386.21,1765.10" z_order="0">
+    </polygon>
+  </image>
+  <image id="28" name="P359_IMG_8056.JPG" width="3024" height="4032">
+    <points label="right_white_point" source="manual" occluded="0" points="1297.70,2104.40" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1855.20,2179.70" z_order="0">
+    </points>
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1284.04,2085.51;1278.27,2105.42;1285.50,2133.70;1303.60,2151.70;1351.39,2150.45;1363.30,2139.84;1373.16,2126.63;1378.37,2114.16" z_order="0">
+    </polygon>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1694.31,2134.37;1696.36,2150.93;1705.80,2169.50;1718.70,2182.90;1773.40,2189.40;1790.69,2176.61;1802.79,2159.68;1807.81,2143.30" z_order="0">
+    </polygon>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1390.54,2150.10" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1643.06,2172.23" z_order="0">
+    </points>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1156.85,2114.66" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1745.29,2140.76" z_order="0">
+    </points>
+  </image>
+  <image id="29" name="P360_IMG_5377.JPG" width="3024" height="4032">
+    <polygon label="right_iris_mask" source="manual" occluded="0" points="1161.72,1744.16;1152.89,1762.03;1156.12,1788.73;1174.63,1812.41;1192.72,1820.37;1241.60,1805.90;1257.70,1774.30;1249.55,1747.18" z_order="0">
+    </polygon>
+    <points label="right_eye_outer_corner" source="manual" occluded="0" points="1099.90,1793.10" z_order="0">
+    </points>
+    <points label="left_eye_outer_corner" source="manual" occluded="0" points="1848.70,1765.10" z_order="0">
+    </points>
+    <points label="left_white_point" source="manual" occluded="0" points="1724.87,1753.32" z_order="0">
+    </points>
+    <points label="right_white_point" source="manual" occluded="0" points="1210.80,1770.00" z_order="0">
+    </points>
+    <points label="left_eye_inner_corner" source="manual" occluded="0" points="1605.93,1796.40" z_order="0">
+    </points>
+    <points label="right_eye_inner_corner" source="manual" occluded="0" points="1337.30,1802.60" z_order="0">
+    </points>
+    <polygon label="left_iris_mask" source="manual" occluded="0" points="1671.94,1736.20;1667.42,1758.80;1677.32,1782.27;1696.05,1799.28;1737.17,1802.50;1762.40,1782.70;1771.40,1751.10;1755.68,1721.34" z_order="0">
+    </polygon>
+  </image>
+</annotations>
